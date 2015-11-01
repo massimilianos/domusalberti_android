@@ -18,63 +18,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9b26d5e-b30d-4bc0-bf9f-48654ed9067e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug-unaligned.apk" afterPath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug.apk" afterPath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/MainActivity.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/PageFragment.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/PageFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$attr.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$attr.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$bool.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$color.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$dimen.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$drawable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$id.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$integer.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$layout.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$mipmap.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$string.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$style.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$styleable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$styleable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/SampleFragmentPagerAdapter.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/SampleFragmentPagerAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-1e65945b70806efd76f5078ee233a476f987ea86.jar" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-1e65945b70806efd76f5078ee233a476f987ea86.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-7bda88940bd6a59a0c9a7a092a8c044ec4f5a0c7.jar" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-7bda88940bd6a59a0c9a7a092a8c044ec4f5a0c7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-9f05bd6da618f3d9359f111f964abf16af701dbd.jar" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-9f05bd6da618f3d9359f111f964abf16af701dbd.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-b3611b7b96f23282ff07cee236f520097441c94f.jar" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/classes-b3611b7b96f23282ff07cee236f520097441c94f.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-53d6badf56213d8ce4e37728c169cf68b26dd8d5.jar" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-53d6badf56213d8ce4e37728c169cf68b26dd8d5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-03b3e079b540e36df411ceefc79d1af468433703.jar" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-03b3e079b540e36df411ceefc79d1af468433703.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/PageFragment.java" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/PageFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/it/max/android/domusalberti/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/it/max/android/domusalberti/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/merged/debug/layout/fragment_page.xml" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/merged/debug/layout/fragment_page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/src/main/res/layout/fragment_page.xml" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/layout/fragment_page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/drawable/brushed_alu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/drawable/brushed_alu2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/drawable/carbon_fibre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/drawable/light_alu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/GaugeView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/values/arrays.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/values/attrs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="domusalberti.iws" />
@@ -135,7 +85,7 @@
       <file leaf-file-name="PageFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/PageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4400978">
+            <state vertical-scroll-proportion="0.40342298">
               <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding />
             </state>
@@ -1754,6 +1704,10 @@
               <option name="myItemId" value="domusalberti" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2099,12 +2053,18 @@
       <option name="project" value="LOCAL" />
       <updated>1446392795718</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inserito Gauge">
+      <created>1446400013332</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1446400013332</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2121,7 +2081,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24248926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24248926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2149,7 +2109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Impostazioni Iniziali" />
-    <option name="LAST_COMMIT_MESSAGE" value="Impostazioni Iniziali" />
+    <MESSAGE value="Inserito Gauge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserito Gauge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2337,7 +2298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/PageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4400978">
+        <state vertical-scroll-proportion="0.40342298">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding />
         </state>
