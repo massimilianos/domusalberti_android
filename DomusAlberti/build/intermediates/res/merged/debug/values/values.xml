@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/Users/Massimiliano/AndroidStudioProjects/domusalberti/DomusAlberti/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="rangeColors">
+        <item>#1BCA21</item>
+        <item>#E8E721</item>
+        <item>#E86F21</item>
+        <item>#E7202B</item>
+    </string-array>
+    <string-array name="ranges">
+        <item>16</item>
+        <item>25</item>
+        <item>40</item>
+        <item>100</item>
+    </string-array>
     <!-- From: file:/Users/Massimiliano/AndroidStudioProjects/domusalberti/DomusAlberti/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -109,6 +123,7 @@
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="android:background"/><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
+    <declare-styleable name="GaugeView"><attr format="boolean" name="showOuterShadow"/><attr format="boolean" name="showOuterBorder"/><attr format="boolean" name="showOuterRim"/><attr format="boolean" name="showInnerRim"/><attr format="boolean" name="showNeedle"/><attr format="boolean" name="showScale"/><attr format="boolean" name="showRanges"/><attr format="boolean" name="showTextGV"/><attr format="float" name="outerShadowWidth"/><attr format="float" name="outerBorderWidth"/><attr format="float" name="outerRimWidth"/><attr format="float" name="innerRimWidth"/><attr format="float" name="innerRimBorderWidth"/><attr format="float" name="needleWidth"/><attr format="float" name="needleHeight"/><attr format="float" name="scalePosition"/><attr format="float" name="scaleStartValue"/><attr format="float" name="scaleEndValue"/><attr format="float" name="scaleStartAngle"/><attr format="integer" name="divisions"/><attr format="integer" name="subdivisions"/><attr format="reference" name="rangeValues"/><attr format="reference" name="rangeColors"/><attr format="string|reference" name="textValue"/><attr format="color" name="textValueColor"/><attr format="float" name="textValueSize"/><attr format="string|reference" name="textUnit"/><attr format="color" name="textUnitColor"/><attr format="float" name="textUnitSize"/><attr format="color" name="textShadowColor"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
@@ -317,7 +332,7 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <!-- From: file:/Users/Massimiliano/AndroidStudioProjects/domusalberti/DomusAlberti/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

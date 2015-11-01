@@ -7,11 +7,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.Random;
+
 // In this case, the fragment displays simple text based on the page
 public class PageFragment extends Fragment {
     public static final String ARG_PAGE = "ARG_PAGE";
 
     private int mPage;
+    private GaugeView mGaugeView;
+    private final Random RAND = new Random();
 
     public static PageFragment newInstance(int page) {
         Bundle args = new Bundle();
@@ -30,8 +34,10 @@ public class PageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_page, container, false);
-        TextView textView = (TextView) view;
-        textView.setText("Fragment #" + mPage);
+//        TextView textView = (TextView) view;
+//        textView.setText("Fragment #" + mPage);
+        mGaugeView = (GaugeView) view.findViewById(R.id.gauge_view);
+        mGaugeView.setTargetValue(RAND.nextInt(101));
         return view;
     }
 }
