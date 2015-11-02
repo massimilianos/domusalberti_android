@@ -71,8 +71,10 @@ public class GaugeView extends View {
 	public static final float[] OUTER_SHADOW_POS = { 0.90f, 0.95f, 0.99f };
 
     public static final float[] RANGE_VALUES = {16.0f, 25.0f, 40.0f, 100.0f};
-    public static final int[] RANGE_COLORS = {Color.rgb(231, 32, 43), Color.rgb(232, 111, 33),
-                                              Color.rgb(232, 231, 33), Color.rgb(27, 202, 33)};
+//    public static final int[] RANGE_COLORS = {Color.rgb(231, 32, 43), Color.rgb(232, 111, 33),
+//                                              Color.rgb(232, 231, 33), Color.rgb(27, 202, 33)};
+	public static final int[] RANGE_COLORS = {Color.rgb(27, 202, 33), Color.rgb(232, 231, 33),
+											  Color.rgb(232, 111, 33), Color.rgb(231, 32, 43)};
 
 	public static final int TEXT_SHADOW_COLOR = Color.argb(100, 0, 0, 0);
 	public static final int TEXT_VALUE_COLOR = Color.WHITE;
@@ -378,6 +380,8 @@ public class GaugeView extends View {
 				mOuterRimRect.bottom, Color.rgb(255, 255, 255), Color.rgb(84, 90, 100), TileMode.REPEAT);
 
 		// Use a Bitmap shader for the metallic style
+		BitmapFactory.Options options = new BitmapFactory.Options();
+		options.inScaled = false;
 		final Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.light_alu);
 		final BitmapShader aluminiumTile = new BitmapShader(bitmap, TileMode.REPEAT, TileMode.REPEAT);
 		final Matrix matrix = new Matrix();
