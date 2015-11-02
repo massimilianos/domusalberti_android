@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import org.codeandmagic.android.gauge.GaugeView;
+
 import java.util.Random;
 
 // In this case, the fragment displays simple text based on the page

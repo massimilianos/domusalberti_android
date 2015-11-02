@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:gauge="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
     android:orientation="vertical">
 
-    <it.max.android.domusalberti.GaugeView
+    <org.codeandmagic.android.gauge.GaugeView
         android:id="@+id/gauge_view"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_marginTop="50dp"
-        gauge:showOuterShadow="true"
-        gauge:showOuterRim="false"
-        gauge:showNeedle="false"
-        gauge:showRanges="false"
-        gauge:showText="true"
-        gauge:textUnit="%" />
-</LinearLayout><!-- From: file:/Users/Massimiliano/AndroidStudioProjects/domusalberti/DomusAlberti/src/main/res/layout/fragment_page.xml -->
+        android:layout_marginTop="50dp" />
+</LinearLayout><!-- From: file:/C:/Users/Massimiliano/AndroidStudioProjects/domusalberti/DomusAlberti/src/main/res/layout/fragment_page.xml -->
