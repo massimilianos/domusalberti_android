@@ -26,7 +26,7 @@ public class PageFragment extends Fragment {
     private GaugeView mGaugeViewHumidity;
     private final Random RAND = new Random();
 
-    private String leggiResponse (InputStream response) {
+    private String readResponse (InputStream response) {
         BufferedReader r = new BufferedReader(new InputStreamReader(response));
         StringBuilder total = new StringBuilder();
         String line;
@@ -36,9 +36,30 @@ public class PageFragment extends Fragment {
                 total.append(line);
             }
         } catch(Exception e) {
+            e.printStackTrace();
+            System.out.println("READRESPONSE: 'ERRORE'");
         }
 
         return(total.toString());
+    }
+
+    private String getResponse (String url) {
+        String response = new String();
+        try {
+            HttpURLConnection con = (HttpURLConnection) ( new URL(url)).openConnection();
+            con.setRequestMethod("POST");
+            con.setDoInput(true);
+            con.setDoOutput(true);
+            con.connect();
+            InputStream is = con.getInputStream();
+            response = this.readResponse(is);
+            con.disconnect();
+        } catch(Exception e) {
+            e.printStackTrace();
+            System.out.println("GETRESPONSE: 'ERRORE'");
+        }
+
+        return(response);
     }
 
     public static PageFragment newInstance(int page) {
@@ -68,31 +89,39 @@ public class PageFragment extends Fragment {
 //        mGaugeViewTemperature.setTargetValue(RAND.nextInt(50));
 //        mGaugeViewHumidity.setTargetValue(20 + RAND.nextInt(60));
 
-        String response = new String();
+        // LEGGO LA TEMPERATURA
+        String temperatura = null;
         try {
-            HttpURLConnection con = (HttpURLConnection) ( new URL("http://massimilianos.ns0.it:82/index.htm?TemperatureRead")).openConnection();
-            con.setRequestMethod("POST");
-            con.setDoInput(true);
-            con.setDoOutput(true);
-            con.connect();
-            InputStream is = con.getInputStream();
-            response = this.leggiResponse(is);
-            con.disconnect();
-
+            temperatura = this.getResponse("http://massimilianos.ns0.it:82/index.htm?TemperatureRead");
         } catch(Exception e) {
             e.printStackTrace();
-            System.out.println("TEMPERATURA 1: 'ERRORE'");
+            System.out.println("TEMPERATURA: 'ERRORE'");
         }
 
-        System.out.println("TEMPERATURA 2: '" + response + "'");
+        Integer iTemperature = 0;
+        if (temperatura.matches("^-?\\d+$"))
+            iTemperature = Integer.parseInt(temperatura);
 
-        Integer temperature = 0;
-        if (response.matches("^-?\\d+$"))
-            temperature = Integer.parseInt(response);
+        System.out.println("TEMPERATURA: '" + iTemperature + "'");
 
-        System.out.println("TEMPERATURA 3: '" + temperature + "'");
+        mGaugeViewTemperature.setTargetValue(iTemperature);
 
-        mGaugeViewTemperature.setTargetValue(temperature);
+        // LEGGO L'UMIDITA'
+        String umidita = null;
+        try {
+            umidita = this.getResponse("http://massimilianos.ns0.it:82/index.htm?HumidityRead");
+        } catch(Exception e) {
+            e.printStackTrace();
+            System.out.println("UMIDITA': 'ERRORE'");
+        }
+
+        Integer iHumidity = 0;
+        if (umidita.matches("^-?\\d+$"))
+            iHumidity = Integer.parseInt(umidita);
+
+        System.out.println("UMIDITA': '" + iHumidity + "'");
+
+        mGaugeViewHumidity.setTargetValue(iHumidity);
 
         return view;
     }
