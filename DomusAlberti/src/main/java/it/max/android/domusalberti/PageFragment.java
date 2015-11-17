@@ -1,12 +1,10 @@
 package it.max.android.domusalberti;
 
-import android.app.DownloadManager;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import org.codeandmagic.android.gauge.GaugeView;
 
@@ -17,7 +15,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Random;
 
-// In this case, the fragment displays simple text based on the page
 public class PageFragment extends Fragment {
     public static final String ARG_PAGE = "ARG_PAGE";
 
@@ -46,7 +43,7 @@ public class PageFragment extends Fragment {
     private String getResponse (String url) {
         String response = new String();
         try {
-            HttpURLConnection con = (HttpURLConnection) ( new URL(url)).openConnection();
+            HttpURLConnection con = (HttpURLConnection) (new URL(url)).openConnection();
             con.setRequestMethod("POST");
             con.setDoInput(true);
             con.setDoOutput(true);

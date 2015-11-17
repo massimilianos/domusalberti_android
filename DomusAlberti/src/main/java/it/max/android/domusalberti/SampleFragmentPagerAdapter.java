@@ -15,11 +15,11 @@ public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
     private String tabTitles[] = new String[] { "1", "2", "3", "4", "5" };
     private Context context;
     private int[] imageResId = {
-        R.drawable.ic_one,
-        R.drawable.ic_two,
-        R.drawable.ic_three,
-        R.drawable.ic_four,
-        R.drawable.ic_five
+        R.drawable.num_1,
+        R.drawable.num_2,
+        R.drawable.num_3,
+        R.drawable.num_4,
+        R.drawable.num_5
     };
 
     public SampleFragmentPagerAdapter(FragmentManager fm, Context context) {

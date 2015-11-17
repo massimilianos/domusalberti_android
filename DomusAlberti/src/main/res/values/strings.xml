@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">DomusAlberti</string>
-
-<!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">ONE</string>
+    <string name="eight">EIGHT</string>
+    <string name="five">FIVE</string>
+    <string name="four">FOUR</string>
+    <string name="nine">NINE</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">SIX</string>
+    <string name="ten">TEN</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
 </resources>
