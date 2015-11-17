@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 */
-private Toolbar toolbar;
+    private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
@@ -46,7 +47,7 @@ private Toolbar toolbar;
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
@@ -74,11 +75,11 @@ private Toolbar toolbar;
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new OneFragment(), "ONE");
-        adapter.addFrag(new TwoFragment(), "TWO");
-        adapter.addFrag(new ThreeFragment(), "THREE");
-        adapter.addFrag(new FourFragment(), "FOUR");
-        adapter.addFrag(new FiveFragment(), "FIVE");
+        adapter.addFrag(new OneFragment(), "UNO");
+        adapter.addFrag(new TwoFragment(), "DUE");
+        adapter.addFrag(new ThreeFragment(), "TRE");
+        adapter.addFrag(new FourFragment(), "QUATTRO");
+        adapter.addFrag(new FiveFragment(), "CINQUE");
         viewPager.setAdapter(adapter);
     }
 
@@ -107,7 +108,6 @@ private Toolbar toolbar;
 
         @Override
         public CharSequence getPageTitle(int position) {
-
             // return null to display only the icon
             return null;
         }
