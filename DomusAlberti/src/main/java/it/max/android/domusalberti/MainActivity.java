@@ -1,5 +1,8 @@
 package it.max.android.domusalberti;
 
+import android.content.Context;
+import android.content.res.AssetManager;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -9,11 +12,15 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.widget.Toast;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 import it.max.android.domusalberti.fragments.*;
+import it.max.android.domusalberti.utils.InternetUtils;
 
 public class MainActivity extends AppCompatActivity {
 /*
@@ -36,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 */
+    private Context context = null;
+    private Resources resources = null;
+    private AssetManager assetManager = null;
+    private Properties properties = null;
+
+    private InternetUtils internetUtils = null;
+
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -44,6 +58,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        try {
+            context = getApplicationContext();
+
+            resources = this.getResources();
+            assetManager = resources.getAssets();
+
+            InputStream inputStream = assetManager.open("domusalberti.properties");
+            properties = new Properties();
+            properties.load(inputStream);
+
+            internetUtils = new InternetUtils(properties);
+        } catch(Exception e) {
+            Toast.makeText(context, "ERRORE LETTURA FILE PROPERTIES (MAIN ACTIVITY)!!!", Toast.LENGTH_SHORT).show();
+            System.exit(-1);
+        }
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
