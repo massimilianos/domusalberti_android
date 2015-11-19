@@ -5,28 +5,42 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Properties;
+
+import it.max.android.domusalberti.entity.ArduinoServerProperties;
+import it.max.android.domusalberti.entity.WebServerProperties;
 
 public class InternetUtils {
-    private Properties properties = null;
+    private WebServerProperties webServerProperties;
+    private ArduinoServerProperties arduinoServerProperties;
 
     public InternetUtils() {}
 
-    public InternetUtils(Properties properties) {
-        this.properties = properties;
+    public InternetUtils(String webserverAddress, String webserverPort, String webserverSitePath) {
+        webServerProperties = new WebServerProperties();
+
+        webServerProperties.setWebserverAddress(webserverAddress);
+        webServerProperties.setWebserverPort(webserverPort);
+        webServerProperties.setWebserverSitePath(webserverSitePath);
     }
 
-    public String creaURLWebServer(Properties properties) {
-        String URLWebServer = "http://" + properties.getProperty("webserverAddress")
-                              + ":"     + properties.getProperty("webserverPort")
-                              + "/"     + properties.getProperty("webserverSitePath");
+    public InternetUtils(String arduinoAddress, String arduinoPort) {
+        arduinoServerProperties = new ArduinoServerProperties();
+
+        arduinoServerProperties.setArduinoAddress(arduinoAddress);
+        arduinoServerProperties.setArduinoPort(arduinoPort);
+    }
+
+    public String creaURLWebServer() {
+        String URLWebServer = "http://" + webServerProperties.getWebserverAddress()
+                              + ":"     + webServerProperties.getWebserverPort()
+                              + "/"     + webServerProperties.getWebserverSitePath();
 
         return(URLWebServer);
     }
 
-    public String creaURLArduinoServer(Properties properties) {
-        String URLArduinoServer = "http://" + properties.getProperty("arduinoAddress")
-                                  + ":"     + properties.getProperty("arduinoPort")
+    public String creaURLArduinoServer() {
+        String URLArduinoServer = "http://" + arduinoServerProperties.getArduinoAddress()
+                                  + ":"     + arduinoServerProperties.getArduinoPort()
                                   + "/index.htm?";
 
         return(URLArduinoServer);
@@ -49,7 +63,7 @@ public class InternetUtils {
         return(total.toString());
     }
 
-    private String getResponse (String url) {
+    public String getResponse (String url) {
         String response = new String();
         try {
             HttpURLConnection con = (HttpURLConnection) (new URL(url)).openConnection();

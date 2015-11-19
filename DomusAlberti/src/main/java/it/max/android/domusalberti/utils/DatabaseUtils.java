@@ -6,14 +6,7 @@ import java.util.Locale;
 import java.util.Properties;
 
 public class DatabaseUtils {
-    private InternetUtils internetUtils = null;
-
-    private Properties properties = null;
-
-    public DatabaseUtils(Properties properties) {
-        this.properties = properties;
-
-        internetUtils = new InternetUtils(properties);
+    public DatabaseUtils() {
     }
 
     private String getDateTime() {

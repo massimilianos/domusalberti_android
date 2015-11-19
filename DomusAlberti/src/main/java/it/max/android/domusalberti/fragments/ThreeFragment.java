@@ -1,6 +1,7 @@
 package it.max.android.domusalberti.fragments;
 
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,10 +11,14 @@ import android.widget.TextView;
 import java.util.Random;
 
 import it.max.android.domusalberti.R;
+import it.max.android.domusalberti.utils.InternetUtils;
 
 public class ThreeFragment extends Fragment {
+    private InternetUtils internetUtils;
+
     public ThreeFragment() {
-        // Required empty public constructor
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
     }
 
     @Override
@@ -24,12 +29,16 @@ public class ThreeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Random rand = new Random();
+        String arduinoAddress = getArguments().getString("arduinoAddress");
+        String arduinoPort = getArguments().getString("arduinoPort");
+
+        internetUtils = new InternetUtils(arduinoAddress, arduinoPort);
 
         View view = inflater.inflate(R.layout.fragment_three, container, false);
 
-        TextView txtRandomThree = (TextView) view.findViewById(R.id.txt_fragment_three);
-        txtRandomThree.setText("BIG PIRLA TRE!!!");
+        TextView txtThree = (TextView) view.findViewById(R.id.txt_fragment_three);
+        txtThree.setText("TEMP.: '" +
+                         internetUtils.getResponse(internetUtils.creaURLArduinoServer() + "ReadTemperature") + "'");
 
         container.removeView(view);
         // Inflate the layout for this fragment

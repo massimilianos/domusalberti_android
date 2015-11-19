@@ -11,7 +11,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.widget.Toast;
 
 import java.io.InputStream;
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private AssetManager assetManager = null;
     private Properties properties = null;
 
-    private InternetUtils internetUtils = null;
+    private Bundle bundle = null;
 
     private Toolbar toolbar;
     private TabLayout tabLayout;
@@ -68,12 +67,17 @@ public class MainActivity extends AppCompatActivity {
             InputStream inputStream = assetManager.open("domusalberti.properties");
             properties = new Properties();
             properties.load(inputStream);
-
-            internetUtils = new InternetUtils(properties);
         } catch(Exception e) {
             Toast.makeText(context, "ERRORE LETTURA FILE PROPERTIES (MAIN ACTIVITY)!!!", Toast.LENGTH_SHORT).show();
             System.exit(-1);
         }
+
+        bundle = new Bundle();
+        bundle.putString("webserverAddress", properties.getProperty("webserverAddress"));
+        bundle.putString("webserverPort", properties.getProperty("webserverPort"));
+        bundle.putString("webserverSitePath", properties.getProperty("webserverSitePath"));
+        bundle.putString("arduinoAddress", properties.getProperty("arduinoAddress"));
+        bundle.putString("arduinoPort", properties.getProperty("arduinoPort"));
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -104,12 +108,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupViewPager(ViewPager viewPager) {
+        OneFragment oneFragment = new OneFragment();
+        oneFragment.setArguments(bundle);
+
+        TwoFragment twoFragment = new TwoFragment();
+        twoFragment.setArguments(bundle);
+
+        ThreeFragment threeFragment = new ThreeFragment();
+        threeFragment.setArguments(bundle);
+
+        FourFragment fourFragment = new FourFragment();
+        fourFragment.setArguments(bundle);
+
+        FiveFragment fiveFragment = new FiveFragment();
+        fiveFragment.setArguments(bundle);
+
+        SixFragment sixFragment = new SixFragment();
+        sixFragment.setArguments(bundle);
+
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new OneFragment(), "UNO");
-        adapter.addFrag(new TwoFragment(), "DUE");
-        adapter.addFrag(new ThreeFragment(), "TRE");
-        adapter.addFrag(new FourFragment(), "QUATTRO");
-        adapter.addFrag(new FiveFragment(), "CINQUE");
+        adapter.addFrag(oneFragment, "UNO");
+        adapter.addFrag(twoFragment, "DUE");
+        adapter.addFrag(threeFragment, "TRE");
+        adapter.addFrag(fourFragment, "QUATTRO");
+        adapter.addFrag(fiveFragment, "CINQUE");
         viewPager.setAdapter(adapter);
     }
 
