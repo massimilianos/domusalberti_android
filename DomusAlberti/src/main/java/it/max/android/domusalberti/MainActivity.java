@@ -93,11 +93,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupTabIcons() {
         int[] tabIcons = {
+                R.drawable.num_0,
                 R.drawable.num_1,
                 R.drawable.num_2,
                 R.drawable.num_3,
                 R.drawable.num_4,
-                R.drawable.num_5
+                R.drawable.num_4,
+                R.drawable.num_6
         };
 
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
@@ -105,9 +107,14 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
         tabLayout.getTabAt(3).setIcon(tabIcons[3]);
         tabLayout.getTabAt(4).setIcon(tabIcons[4]);
+        tabLayout.getTabAt(5).setIcon(tabIcons[5]);
+        tabLayout.getTabAt(6).setIcon(tabIcons[6]);
     }
 
     private void setupViewPager(ViewPager viewPager) {
+        ZeroFragment zeroFragment = new ZeroFragment();
+        zeroFragment.setArguments(bundle);
+
         OneFragment oneFragment = new OneFragment();
         oneFragment.setArguments(bundle);
 
@@ -127,11 +134,13 @@ public class MainActivity extends AppCompatActivity {
         sixFragment.setArguments(bundle);
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFrag(zeroFragment, "ZERO");
         adapter.addFrag(oneFragment, "UNO");
         adapter.addFrag(twoFragment, "DUE");
         adapter.addFrag(threeFragment, "TRE");
         adapter.addFrag(fourFragment, "QUATTRO");
         adapter.addFrag(fiveFragment, "CINQUE");
+        adapter.addFrag(sixFragment, "SEI");
         viewPager.setAdapter(adapter);
     }
 
