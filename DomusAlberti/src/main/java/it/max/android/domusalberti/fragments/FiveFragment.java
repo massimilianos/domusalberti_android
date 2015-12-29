@@ -37,8 +37,7 @@ public class FiveFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_five, container, false);
 
         TextView txtFive = (TextView) view.findViewById(R.id.txt_fragment_five);
-        txtFive.setText("TEMP.: '" +
-                        internetUtils.getResponse(internetUtils.creaURLArduinoServer() + "TemperatureRead") + "'");
+//        txtFive.setText("TEMP.: '" + internetUtils.getResponse(internetUtils.creaURLArduinoServer() + "TemperatureRead") + "'");
 
         container.removeView(view);
         // Inflate the layout for this fragment

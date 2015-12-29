@@ -98,17 +98,17 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.num_2,
                 R.drawable.num_3,
                 R.drawable.num_4,
-                R.drawable.num_4,
+                R.drawable.num_5,
                 R.drawable.num_6
         };
 
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
-        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
-        tabLayout.getTabAt(3).setIcon(tabIcons[3]);
-        tabLayout.getTabAt(4).setIcon(tabIcons[4]);
-        tabLayout.getTabAt(5).setIcon(tabIcons[5]);
-        tabLayout.getTabAt(6).setIcon(tabIcons[6]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[3]);
+        tabLayout.getTabAt(3).setIcon(tabIcons[4]);
+        tabLayout.getTabAt(4).setIcon(tabIcons[5]);
+        tabLayout.getTabAt(5).setIcon(tabIcons[6]);
+//        tabLayout.getTabAt(6).setIcon(tabIcons[6]);
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(zeroFragment, "ZERO");
         adapter.addFrag(oneFragment, "UNO");
-        adapter.addFrag(twoFragment, "DUE");
+//        adapter.addFrag(twoFragment, "DUE");
         adapter.addFrag(threeFragment, "TRE");
         adapter.addFrag(fourFragment, "QUATTRO");
         adapter.addFrag(fiveFragment, "CINQUE");
