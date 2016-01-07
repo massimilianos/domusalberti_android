@@ -60,11 +60,11 @@ public class ZeroFragment extends Fragment {
                     if (isChecked) {
                         URL = URLArduinoServer + "Relay=ON";
                         Log.d("URL ContrTermosifoni 1", URL);
-                        URL = internetUtils.getResponse(URL);
+//                        URL = internetUtils.getResponse(URL);
                     } else {
                         URL = URLArduinoServer + "Relay=OFF";
                         Log.d("URL ContrTermosifoni 0", URL);
-                        URL = internetUtils.getResponse(URL);
+//                        URL = internetUtils.getResponse(URL);
                     }
                 } catch (Exception e) {
                     Toast.makeText(context, "ERRORE CAMBIO CONTROLLO MANUALE (MAIN ACTIVITY)!!!", Toast.LENGTH_SHORT).show();
