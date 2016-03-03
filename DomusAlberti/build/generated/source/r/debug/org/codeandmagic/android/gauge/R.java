@@ -48,7 +48,7 @@ public final class R {
 		public static final int brushed_alu = 0x7f020045;
 		public static final int brushed_alu2 = 0x7f020046;
 		public static final int carbon_fibre = 0x7f020047;
-		public static final int light_alu = 0x7f02004a;
+		public static final int light_alu = 0x7f02004b;
 	}
 	public static final class styleable {
 		public static final int[] GaugeView = { 0x7f01004d, 0x7f01004e, 0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052, 0x7f010053, 0x7f010054, 0x7f010055, 0x7f010056, 0x7f010057, 0x7f010058, 0x7f010059, 0x7f01005a, 0x7f01005b, 0x7f01005c, 0x7f01005d, 0x7f01005e, 0x7f01005f, 0x7f010060, 0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064, 0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068, 0x7f010069, 0x7f01006a, 0x7f01006b };

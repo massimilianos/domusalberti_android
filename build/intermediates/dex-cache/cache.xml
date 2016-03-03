@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Massimiliano\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-f9c4c1de19d8a7b2e4727e0b85431ff16dd109ee.jar" />
-    </item>
-    <item
-        jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-2f760e4c2fed040654fb5245efd8c13687ca4890.jar" />
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\classes-831deff535a5910c65c06cb8579ed4ff010fd6e1.jar" />
     </item>
     <item
         jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
@@ -23,18 +16,25 @@
         <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\classes-71441fb0e03d99b9a2bc2c9e784587daeb015110.jar" />
     </item>
     <item
+        jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\domusalberti\gauge\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ae795f17560e68d18bf8724c8b2845d40735e4c3">
+        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\classes-aec49a5c8a932d78ec434b6de741d3c27de32ec6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-2f760e4c2fed040654fb5245efd8c13687ca4890.jar" />
+    </item>
+    <item
         jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
         <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\classes-05d6117a2b35fd56f20fd2188fc937a99d376e0b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\domusalberti\gauge\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ac308bea0ba264f7d23dae8cc189fe72c635a3c6">
-        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\classes-aec49a5c8a932d78ec434b6de741d3c27de32ec6.jar" />
     </item>
     <item
         jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
@@ -44,11 +44,11 @@
         <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\classes-d375cca4f7be14dca620cab3f176730b4a79baa6.jar" />
     </item>
     <item
-        jar="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jar="C:\Users\Massimiliano\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\classes-831deff535a5910c65c06cb8579ed4ff010fd6e1.jar" />
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Massimiliano\AndroidStudioProjects\domusalberti\DomusAlberti\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-6457358153d5c93fbe9419db08a382c9d29ff44c.jar" />
     </item>
 
 </items>
