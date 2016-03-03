@@ -25,74 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="825c2177-1d8b-458c-8b2e-a23b7da9dc63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/drawable/humidity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/drawable/temperature.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/entity/Stanza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/layout/lista_stanze.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug-unaligned.apk" afterPath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug.apk" afterPath="$PROJECT_DIR$/DomusAlberti/build/outputs/apk/DomusAlberti-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/MainActivity.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$drawable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/org/codeandmagic/android/gauge/R$drawable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/org/codeandmagic/android/gauge/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$id.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$integer.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/design/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$layout.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$mipmap.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$string.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$style.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$styleable.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/SampleFragmentPagerAdapter.class" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/classes/debug/it/max/android/domusalberti/SampleFragmentPagerAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/exploded-aar/domusalberti/gauge/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/exploded-aar/domusalberti/gauge/unspecified/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauge/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/gauge/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauge/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/gauge/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauge/build/outputs/aar/gauge-debug.aar" afterPath="$PROJECT_DIR$/gauge/build/outputs/aar/gauge-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauge/build/outputs/aar/gauge-release.aar" afterPath="$PROJECT_DIR$/gauge/build/outputs/aar/gauge-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauge/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/gauge/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/DomusAlberti.iml" afterPath="$PROJECT_DIR$/DomusAlberti/DomusAlberti.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/it/max/android/domusalberti/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/it/max/android/domusalberti/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/org/codeandmagic/android/gauge/R.java" afterPath="$PROJECT_DIR$/DomusAlberti/build/generated/source/r/debug/org/codeandmagic/android/gauge/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/fragments/ZeroFragment.java" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/java/it/max/android/domusalberti/fragments/ZeroFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build.gradle" afterPath="$PROJECT_DIR$/DomusAlberti/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/effects_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/effects_android_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/src/main/res/layout/fragment_zero.xml" afterPath="$PROJECT_DIR$/DomusAlberti/src/main/res/layout/fragment_zero.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gauge/gauge.iml" afterPath="$PROJECT_DIR$/gauge/gauge.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/maps_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/maps_android_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DomusAlberti/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/DomusAlberti/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/usb_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/usb_android_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="domusalberti.iws" />
@@ -2389,6 +2321,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domusalberti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domusalberti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="AndroidView">
@@ -2408,7 +2350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
@@ -2591,6 +2533,13 @@
       <option name="number" value="Default" />
       <updated>1456917593580</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inserita ListView">
+      <created>1457018315978</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1457018315978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2639,6 +2588,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inserita ListView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserita ListView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
